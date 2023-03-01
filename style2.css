@@ -1,14 +1,43 @@
+body {
+    font-family: arial,sans-serif;
+    width: 100%;
+}
+
+
 .entrada {
     display: flex;
-    height: 44px;
     background: #fff;
     border: 1px solid #dfe1e5;
-    box-shadow: none;
+    height: 44px;
     border-radius: 24px;
     margin: 0 auto;
-    width: 638px;
+    width: 584px;
+
 }
 
 .input_text {
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    margin-left: 10px;
+    height: 44px;
+    font-size: 16px;
     border: 0;
+}
+
+.submit {
+    height: 70px;
+    padding-top: 88px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }

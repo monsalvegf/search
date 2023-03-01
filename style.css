@@ -1,94 +1,76 @@
-body, input, button {
+body {
     font-size: 14px;
     font-family: arial,sans-serif;
-    color: #202124;
-}
-
-.L3eUgb {
     display: flex;
     flex-direction: column;
     height: 100%;
-}
-
-.om7nvf {
-    padding: 20px;
-}
-
-.ikrT4e {
-    max-height: 160px;
-}
-.o3j99 {
-    flex-shrink: 0;
-    box-sizing: border-box;
-}
-
-.A8SBwf {
-    margin: 0 auto;
-    padding-top: 6px;
-    width: auto;
-    max-width: 584px;
-    position: relative;
-}
-
-.RNNXgb {
-    display: flex;
-    z-index: 3;
-    height: 44px;
-    background: #fff;
-    border: 1px solid #dfe1e5;
-    box-shadow: none;
-    border-radius: 24px;
-    margin: 0 auto;
-    width: 638px;
-    width: auto;
-    max-width: 584px;
-}
-
-.SDkEP {
-    flex: 1;
-    display: flex;
-    padding: 5px 8px 0 14px;
-}
-
-.iblpc {
-    display: flex;
     align-items: center;
-    padding-right: 13px;
-    margin-top: -5px;
-}
-
-.a4bIc {
-    display: flex;
-    flex: 1;
-    flex-wrap: wrap;
+    padding: 6px;
 }
 
 div {
     display: block;
 }
 
-#inputwrapper {
-    height: 100%;
+.centro {
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+.recuadro {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fdfdfd;
+    border: 3px solid rgb(161, 6, 6)
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
     position: relative;
 }
 
 input {
-    z-index: 100;
-    background-color: #ffffffff;
+    background-color: transparent;
     border: none;
-    border-radius: calc(0.5 * var(--ntp-realbox-height));
-    color: #000000;
-    font-family: inherit;
-    font-size: inherit;
-    height: 100%;
-    outline: 0;
-    padding-inline-end: calc(var(--ntp-realbox-voice-icon-offset) + var(--ntp-realbox-icon-width) + var(--ntp-realbox-inner-icon-margin));
-    padding-inline-start: 52px;
-    position: relative;
-    width: 100%;
-    writing-mode: horizontal-tb;
-    font-style: ;
-    appearance: auto;
-    box-sizing: border-box;
-    padding: 1px 2px;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    flex: 100%;
+}
+
+.buttons {
+    height: 70px;
+    padding-top: 18px;
+}
+
+.button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
