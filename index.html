@@ -1,19 +1,70 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
     <head>
-        <title>Search</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Prueba de formulario CSS</title>
+        <style>
+            body {
+                font-family: arial,sans-serif;
+                width: 100%;
+            }
+
+            div {
+                display: block;
+                margin: auto;
+                box-sizing: border-box;
+            }
+
+            .barra_superior {
+                display: flex
+                margin-right: 30px;
+                height: 100px;
+                width: 100%;
+            }
+
+            .boton_sup {
+                float: right;
+                margin-right: 30px;
+            }
+            .barra_media {
+                display: flex
+                margin-right: 30px;
+                height: 100px;
+                width: 100%;
+            }
+            .entrada {
+                display: flex;
+                background: #fff;
+                border: 1px solid #dfe1e5;
+                height: 44px;
+                border-radius: 24px;
+                margin: auto;
+                width: 584px;
+                box-sizing: border-box;
+            }
+
+            .input_text {
+                background-color: transparent;
+                margin-left: 30px;
+                height: 40px;
+                font-size: 16px;
+                border: 0;
+                width: 584px;
+                white-space: pre;
+            }
+
+        </style>
     </head>
     <body>
-        <div class="centro">
-            <form action="https://www.google.com/search">
-                <div class="recuadro">
-                    <input type="text" name="q" placeholder="Buscar en Google o escribir una URL">
-                </div>
-                <div class="buttons">
-                    <input class="button" type="submit" name="Google Search">
-                </div>
-            </form>
+        <div class="barra_superior">
+            <button class="boton_sup" type="button" class="boton_sup">Primary</button>
         </div>
+        <form action="https://www.google.com/search">
+            <div class="barra_media">
+                <div class="entrada">
+                    <input class="input_text" type="text" name="q" placeholder="Buscar en Google o escribir una URL">  
+                </div>
+             </div>
+            <br>  
+            <input class="submit" type="submit" name="Google Search">           
     </body>
 </html>
