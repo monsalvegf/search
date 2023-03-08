@@ -1,0 +1,236 @@
+body {
+    font-family: arial,sans-serif;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+div {
+    display: block;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.barra_superior {
+    display: flex
+    margin-right: 40px;
+    height: 170px;
+    width: 100%;
+}
+
+.enlace {
+    font: 13px/27px Roboto,Arial,sans-serif;
+    display: flex;
+    -webkit-user-select: none;
+    float: right;
+    margin-right: 30px;
+    color: black;
+}
+
+.enlaceweb {
+    padding-right: 20px;
+}
+
+
+.barra_media {
+    display: flex
+    margin-right: 30px;
+    height: 110px;
+    width: 100%;
+}
+.entrada {
+    display: flex;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    border-radius: 24px;
+    margin: auto;
+    width: 584px;
+    box-sizing: border-box;
+}
+
+.input_text {
+    background-color: transparent;
+    margin-top: 2px;
+    margin-left: 20px;
+    height: 40px;
+    font-size: 16px;
+    border: 0;
+    width: 540px;
+    white-space: pre;
+}
+
+.envio {
+    display: flex;
+    align: center;
+    justify-content: center;
+    background: #fff;
+    border: 0;
+    height: 60x;
+    padding-top: 10px;
+    margin: auto;
+    width: 584px;
+    box-sizing: border-box;
+}
+
+.submit {
+    margin: auto;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    appearance: auto;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.bottomwrapper {
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
+
+.appbar {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.line {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.cuestionario {
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.entradatexto {
+    width: 100%;
+    clear: both;
+}
+
+.linea {
+    width: 100%;
+    clear: both;
+}
+
+.unoi {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+}
+
+.unoc {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 42px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.unod {
+    height: 42px;
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    color: #777;
+    padding-left: 5px;
+}
+
+.dosi {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.dosc {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.dosd {
+    float: left;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.jft-textinput {
+    width: 100%;
+    ext-align: left;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 29px;
+    padding: 1px 8px;
+    outline: 0;
+}
+
+input {
+    width: 100%;
+}
+
+.buttonblue {
+    user-select: none;
+    line-height: 100%;
+    height: 30px;
+    width: 120px;
+    float: right;
+    margin: 10px 0;
+    padding: 0 12px;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -moz-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    outline: 0;
+}
+
+.monotype {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+    white-space: pre;
+}

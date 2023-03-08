@@ -2,108 +2,7 @@
 <html>
     <head>
         <title>Prueba de formulario CSS</title>
-        <style>
-            body {
-                font-family: arial,sans-serif;
-                width: 100%;
-            }
-
-            div {
-                display: block;
-                margin: auto;
-                box-sizing: border-box;
-            }
-
-            .barra_superior {
-                display: flex;
-                margin-right: 40px;
-                height: 170px;
-                width: 100%;
-            }
-
-            .enlace {
-                font: 13px/27px Roboto,Arial,sans-serif;
-                display: flex;
-                -webkit-user-select: none;
-                float: right;
-                margin-right: 30px;
-                color: black;
-            }
-
-            .enlaceweb {
-                padding-right: 20px;
-            }
-
-
-            .barra_media {
-                display: flex
-                margin-right: 30px;
-                height: 110px;
-                width: 100%;
-            }
-            .entrada {
-                display: flex;
-                background: #fff;
-                border: 1px solid #dfe1e5;
-                height: 44px;
-                border-radius: 24px;
-                margin: auto;
-                width: 584px;
-                box-sizing: border-box;
-            }
-
-            .input_text {
-                background-color: transparent;
-                margin-top: 2px;
-                margin-left: 20px;
-                height: 40px;
-                font-size: 16px;
-                border: 0;
-                width: 540px;
-                white-space: pre;
-            }
-
-            .envio {
-                display: flex;
-                background: #fff;
-                border: 0;
-                height: 60x;
-                padding-top: 10px;
-                margin: auto;
-                width: 100%
-                box-sizing: border-box;
-            }
-
-            center {
-                display: flex;
-                justify-content: center;
-                text-align: center;
-                width: 584px;
-                margin: auto;
-                box-sizing: border-box;
-            }
-
-            .submit {
-                margin: auto;
-                border: 1px solid #f8f9fa;
-                border-radius: 4px;
-                color: #3c4043;
-                font-family: arial,sans-serif;
-                font-size: 14px;
-                margin: 11px 4px;
-                padding: 0 16px;
-                line-height: 27px;
-                height: 36px;
-                min-width: 54px;
-                text-align: center;
-                cursor: pointer;
-                user-select: none;
-                appearance: auto;
-                box-sizing: border-box;
-                display: inline-block;
-            }
-
-        </style>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <div class="barra_superior">
@@ -121,12 +20,11 @@
                 <div class="entrada">
                     <input class="input_text" type="text" name="q" placeholder="Write here the text to search">  
                 </div>
-                <center>
                 <div class="envio">
                     <input class="submit" type="submit" value="Google Search">   
                     <input class="submit" type="submit" value="I'm Feeling Lucky" name="btnI">   
                 </div>
-                </center>
-             </div>    
+             </div>
+        </form>
     </body>
 </html>
